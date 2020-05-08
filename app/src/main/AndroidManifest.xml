@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tika.app2">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="com.javapapers.android.googleplacesdetail.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.location.gps" />
+    <uses-feature android:name="android.hardware.telephony" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_swa"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_swa"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.tika.app2.Medical.Pedometer"></activity>
+        <activity android:name="com.tika.app2.Home.aadharupload" />
+        <activity android:name="com.tika.app2.Home.uploadPDF" />
+        <activity android:name="com.tika.app2.Home.LocationCapture" />
+        <activity android:name="com.tika.app2.Home.VoiceRecorder" />
+        <activity android:name="com.tika.app2.Photosave" />
+        <activity android:name="com.tika.app2.Front.HomeFragmentmain" />
+        <activity android:name="com.tika.app2.Front.CameraActivity" />
+        <activity android:name="com.tika.app2.Bluetooth.Receiver" />
+        <activity android:name="com.tika.app2.Bluetooth.PinControl" />
+        <activity android:name="com.tika.app2.Bluetooth.DeviceList" />
+        <activity android:name="com.tika.app2.Bluetooth.Actions" />
+        <activity android:name="com.tika.app2.News.NewsActivity" />
+        <activity android:name="com.tika.app2.Front.SettingsMainsActivity" />
+        <activity android:name="com.tika.app2.Front.MessageMainActivity" />
+        <activity android:name="com.tika.app2.Front.MainXActivity" />
+        <activity android:name="com.tika.app2.Front.ServiceActivity" />
+        <activity android:name="com.tika.app2.News.DetailsActivity" />
+        <activity android:name="com.tika.app2.Front.SplashScrActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tika.app2.Front.SplashActivity" />
+        <activity android:name="com.tika.app2.Front.SosActivity" />
+        <activity android:name="com.tika.app2.Front.CalendarActivity" />
+        <activity android:name="com.tika.app2.Front.EmailActivity" />
+        <activity android:name="com.tika.app2.Medical.HospitalFind" />
+        <activity android:name="com.tika.app2.Front.loginpage" />
+        <activity android:name="com.tika.app2.Login.signparent" />
+        <activity android:name="com.tika.app2.Front.LoginActivity" />
+        <activity android:name="com.tika.app2.Front.RegistrationActivity" />
+        <activity android:name="com.tika.app2.Front.PWresetActivity" />
+        <activity android:name="com.tika.app2.Medical.bcgActivity" />
+        <activity
+            android:name="com.tika.app2.Front.Home.HomeNew"
+            android:label="Secure"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.tika.app2.Selections.PregActivity" />
+        <activity android:name="com.tika.app2.Selections.Child1Activity" />
+        <activity android:name="com.tika.app2.Front.InfantFragment" />
+        <activity android:name="com.tika.app2.Front.SelectActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCWk4jh3IxB9OBFyKPJEy74PjSIUBG-36U" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.tika.app2.Front.MapActivity"
+            android:label="@string/title_activity_map"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.tika.app2.Front.PermissionsActivity" />
+        <activity android:name="com.tika.app2.Login.CustomerLoginActivity" />
+        <activity android:name="com.tika.app2.Login.GovtLoginActivity" />
+        <activity android:name="com.tika.app2.Front.MainActivity" />
+        <activity android:name="com.tika.app2.Front.Emergency.EmergencySelectionActivity"/>
+        <activity android:name=".Front.Emergency.EmergencyMapActivity"/>
+
+        <service android:name="com.tika.app2.Front.ShakeService" />
+
+        <service
+            android:name=".FCMService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/girl" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <meta-data
+            android:name="firebase_messaging_auto_init_enabled"
+            android:value="false" />
+        <meta-data
+            android:name="firebase_analytics_collection_enabled"
+            android:value="false" />
+
+    </application>
+
+
+</manifest>

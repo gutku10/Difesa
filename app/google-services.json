@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "340364969638",
+    "firebase_url": "https://swarksha.firebaseio.com",
+    "project_id": "swarksha",
+    "storage_bucket": "swarksha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340364969638:android:1d4b1990e5a47562601667",
+        "android_client_info": {
+          "package_name": "com.skull1.hackathon1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340364969638-jn1gjbomop1bgt5lnkp59tqf9rjd9vf9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu_APe1umR2pzK7M7PemNbGkTl3mL4dOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340364969638-jn1gjbomop1bgt5lnkp59tqf9rjd9vf9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

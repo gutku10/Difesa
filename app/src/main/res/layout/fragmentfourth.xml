@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/dashboard_grad"
+    >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="-12dp"
+                    android:layout_height="300dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="-20dp"
+                    android:layout_marginRight="-20dp"
+                    android:background="@drawable/union"
+                    android:gravity="center_horizontal"
+
+                    >
+
+
+
+
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Important Resources"
+                        android:textColor="@color/white"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="30sp"/>
+                    <Button
+                        android:id="@+id/fir_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Lodge a First Information Report (FIR)"
+                        android:background="@color/black_overlay"
+                        android:textColor="@color/white"
+
+                        />
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contact Us"
+                        android:textColor="@color/white"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="30sp"/>
+                    <LinearLayout
+
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/whatsapp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/whatsapp"
+                        android:layout_marginRight="20dp"/>
+                        <ImageView
+                            android:id="@+id/insta"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/instagram"
+                            android:layout_marginRight="20dp"/>
+                        <ImageView
+                            android:id="@+id/facebook"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/facebook"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/swarksha_link"
+                        android:layout_marginTop="7dp"
+                        android:textSize="18sp"
+                        android:layout_width="130dp"
+                        android:layout_height="30dp"
+                        android:text="swarksha.org"
+                        ></TextView>
+                </LinearLayout>
+
+
+
+
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="How to use the app"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Shake to Call it to capture images that serve as an evidence\n2. Say Difesa to save yourself.\n3. Anti-cut call."
+                    android:textSize="18sp"
+                    android:background="@drawable/info_overlay"
+                    android:padding="12dp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:orientation="vertical"
+
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="हमारे ऐप का उपयोग कैसे करें"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. कॉल करने के लिए शेक के माध्यम से सबूत के रूप में छवियों पर कब्जा\n2.
+अपने आप को बचाने के लिए Difesa कहें।\n3.
+एंटी-कट कॉल।
+"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textSize="18sp"
+                        android:background="@drawable/info_overlay"
+                        android:padding="12dp"
+                        android:textColor="@color/white"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
+
+
+
+    <!--
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/quantum_bluegrey300"
+        >
+
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="National Police Portal Of India"
+            android:id="@+id/official"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register FIR"
+            android:id="@+id/aefi"
+
+            />
+    </LinearLayout>-->
+
+    <!--
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/quantum_bluegrey300"
+        >
+
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="National Police Portal Of India"
+            android:id="@+id/official"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register FIR"
+            android:id="@+id/aefi"
+
+            />
+    </LinearLayout>-->
+
+
+
+
+                   <!-- <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="How to use the app"
+                    android:textColor="@color/white"
+android:layout_below="@id/linear1"
+                    android:textSize="30sp"/>
+
+
+                <LinearLayout
+                    android:id="@+id/linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="350dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@drawable/card_back"
+                    android:orientation="vertical"
+
+
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp">
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            app:cardCornerRadius="40dp"
+                            android:foreground="?android:attr/selectableItemBackground"
+
+                            >
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/card_grad_1">
+
+                                <ImageView
+                                    android:id="@+id/dash1"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerInParent="true"
+                                    android:layout_marginTop="25dp"
+                                    android:src="@drawable/map" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/dash1"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginBottom="10dp"
+                                    android:text="Map"
+                                    android:textColor="#ffffff"
+                                    android:textSize="20sp"
+                                    android:layout_marginTop="10dp">
+
+
+                                </TextView>
+
+                                <Button
+                                    android:id="@+id/dashmap"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"></Button>
+
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            app:cardCornerRadius="40dp"
+                            android:foreground="?android:attr/selectableItemBackground">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/card_grad_2">
+
+                                <ImageView
+                                    android:id="@+id/dash2"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerInParent="true"
+                                    android:layout_marginTop="25dp"
+                                    android:src="@drawable/taekwondo" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/dash2"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:text="Self Defence"
+                                    android:textColor="#fff"
+                                    android:textSize="20sp">
+
+
+                                </TextView>
+
+                                <Button
+                                    android:id="@+id/dashfight"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"></Button>
+
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            app:cardCornerRadius="40dp"
+                            android:foreground="?android:attr/selectableItemBackground"
+
+
+                            >
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/card_grad_3">
+
+                                <ImageView
+                                    android:id="@+id/dash3"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerInParent="true"
+                                    android:layout_marginTop="25dp"
+                                    android:src="@drawable/newspaper" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/dash3"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:text="News"
+                                    android:textColor="#fff"
+                                    android:textSize="20sp">
+
+
+                                </TextView>
+
+                                <Button
+                                    android:id="@+id/dashnews"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"></Button>
+
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            app:cardCornerRadius="40dp"
+                            android:foreground="?android:attr/selectableItemBackground">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/card_grad_4">
+
+                                <ImageView
+                                    android:id="@+id/dash6"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerInParent="true"
+                                    android:layout_marginTop="25dp"
+                                    android:src="@drawable/emergency" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/dash6"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:text="SOS"
+                                    android:textColor="#fff"
+                                    android:textSize="20sp">
+
+
+                                </TextView>
+
+                                <Button
+                                    android:id="@+id/dashsos"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"></Button>
+
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+
+
+
+                    </LinearLayout>
+
+                    &lt;!&ndash; <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="135dp"
+                         android:layout_marginBottom="10dp"
+                         android:orientation="horizontal"
+                         android:paddingLeft="15dp"
+                         android:paddingRight="15dp"
+                         android:paddingBottom="2dp">
+
+                         &lt;!&ndash;<androidx.cardview.widget.CardView
+                             android:layout_width="0dp"
+                             android:layout_height="match_parent"
+                             android:layout_marginRight="5dp"
+                             android:layout_weight="1"
+                             android:gravity="center"
+                             app:cardCornerRadius="40dp"
+                             android:foreground="?android:attr/selectableItemBackground">
+
+                             <RelativeLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="match_parent"
+                                 android:background="@drawable/card_grad_2">
+
+                                 <ImageView
+                                     android:id="@+id/dash5"
+                                     android:layout_width="50dp"
+                                     android:layout_height="50dp"
+                                     android:layout_alignParentTop="true"
+                                     android:layout_centerInParent="true"
+                                     android:layout_marginTop="25dp"
+                                     android:src="@drawable/login" />
+
+                                 <TextView
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content"
+                                     android:layout_below="@+id/dash5"
+                                     android:layout_centerHorizontal="true"
+                                     android:layout_marginTop="10dp"
+                                     android:layout_marginBottom="10dp"
+                                     android:text="Login"
+                                     android:textColor="#6a6a6a"
+                                     android:textSize="18sp">
+
+
+                                 </TextView>
+
+                                 <Button
+                                     android:id="@+id/dashlogin"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="match_parent"
+                                     android:background="@android:color/transparent"></Button>
+
+                             </RelativeLayout>
+
+                         </androidx.cardview.widget.CardView>&ndash;&gt;
+                         &lt;!&ndash;<androidx.cardview.widget.CardView
+                             android:layout_width="0dp"
+                             android:layout_height="match_parent"
+                             android:layout_marginLeft="5dp"
+                             android:layout_weight="1"
+                             android:gravity="center"
+                             app:cardCornerRadius="40dp"
+                             android:foreground="?android:attr/selectableItemBackground">
+
+                             <RelativeLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="match_parent"
+                                 android:background="@drawable/card_grad_4">
+
+                                 <ImageView
+                                     android:id="@+id/dash4"
+                                     android:layout_width="50dp"
+                                     android:layout_height="50dp"
+                                     android:layout_alignParentTop="true"
+                                     android:layout_centerInParent="true"
+                                     android:layout_marginTop="25dp"
+                                     android:src="@drawable/sms" />
+
+                                 <TextView
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content"
+                                     android:layout_below="@+id/dash4"
+                                     android:layout_centerHorizontal="true"
+                                     android:layout_marginTop="10dp"
+                                     android:layout_marginBottom="10dp"
+                                     android:text="SMS"
+                                     android:textColor="#6a6a6a"
+                                     android:textSize="18sp">
+
+
+                                 </TextView>
+
+                                 <Button
+                                     android:id="@+id/dashsms"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="match_parent"
+                                     android:background="@android:color/transparent"></Button>
+
+                             </RelativeLayout>
+
+                         </androidx.cardview.widget.CardView>&ndash;&gt;
+
+
+
+                     </LinearLayout>&ndash;&gt;
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+</RelativeLayout>-->

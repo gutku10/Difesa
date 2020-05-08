@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backer"
+        android:orientation="vertical"
+        android:padding="30dp"
+        tools:context=".Home.aadharupload"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:src="@drawable/upload"
+        android:layout_gravity="center_horizontal">
+
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload reports"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="@color/quantum_black_100">
+
+    </TextView>
+
+
+        <EditText
+            android:id="@+id/txt_pdfName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:hint="Enter a name for your file"
+            android:textColorHint="@color/transparentBlack"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btn_upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Upload PDF"
+            android:layout_marginBottom="70dp"/>
+
+
+    </LinearLayout>

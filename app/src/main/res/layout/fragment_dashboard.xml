@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/dashboard_grad"
+    >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="-12dp"
+                    android:layout_height="300dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="-20dp"
+                    android:layout_marginRight="-20dp"
+                    android:background="@drawable/union"
+
+                    >
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginTop="50dp">
+                    <RelativeLayout
+                        android:id="@+id/widget30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+
+                        >
+
+                        <com.skyfishjy.library.RippleBackground
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:rb_color="@color/white">
+                        <ImageView
+
+                            android:layout_width="107dp"
+                            android:layout_height="107dp"
+                            android:src="@drawable/circle_home"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true"
+
+                            >
+
+
+
+                        </ImageView>
+                        </com.skyfishjy.library.RippleBackground>
+                        <ImageView
+                            android:id="@+id/profilepic"
+                            android:layout_width="87dp"
+                            android:layout_height="87dp"
+                            android:src="@drawable/girl"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true"
+                            >
+                        </ImageView>
+
+                    </RelativeLayout>
+                        <TextView
+                            android:id="@+id/dash_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:textSize="25sp"
+                            android:text="Welcome"
+                            android:textColor="@color/white"
+                            ></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginRight="50dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentRight="true"
+                            android:gravity="center_horizontal">
+
+                        <ImageView
+                            android:id="@+id/ola_dash_top"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ola_icon"
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Book a ride"
+                            android:textSize="18sp"
+                            />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="350dp"
+                        android:layout_marginRight="0dp"
+                        android:background="@drawable/card_back"
+                        android:orientation="vertical"
+
+
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp">
+
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                app:cardCornerRadius="40dp"
+                                android:foreground="?android:attr/selectableItemBackground"
+
+                                >
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/card_grad_1">
+
+                                    <ImageView
+                                        android:id="@+id/dash1"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_alignParentTop="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_marginTop="25dp"
+                                        android:src="@drawable/map" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/dash1"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginBottom="10dp"
+                                        android:text="Map"
+                                        android:textColor="#ffffff"
+                                        android:textSize="20sp"
+                                        android:layout_marginTop="10dp">
+
+
+                                    </TextView>
+
+                                    <Button
+                                        android:id="@+id/dashmap"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@android:color/transparent"></Button>
+
+                                </RelativeLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                app:cardCornerRadius="40dp"
+                                android:foreground="?android:attr/selectableItemBackground">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/card_grad_2">
+
+                                    <ImageView
+                                        android:id="@+id/dash2"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_alignParentTop="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_marginTop="25dp"
+                                        android:src="@drawable/taekwondo" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/dash2"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:text="Self Defence"
+                                        android:textColor="#fff"
+                                        android:textSize="20sp">
+
+
+                                    </TextView>
+
+                                    <Button
+                                        android:id="@+id/dashfight"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@android:color/transparent"></Button>
+
+                                </RelativeLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="135dp"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="5dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                app:cardCornerRadius="40dp"
+                                android:foreground="?android:attr/selectableItemBackground"
+
+
+                                >
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/card_grad_3">
+
+                                    <ImageView
+                                        android:id="@+id/dash3"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_alignParentTop="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_marginTop="25dp"
+                                        android:src="@drawable/newspaper" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/dash3"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:text="News"
+                                        android:textColor="#fff"
+                                        android:textSize="20sp">
+
+
+                                    </TextView>
+
+                                    <Button
+                                        android:id="@+id/dashnews"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@android:color/transparent"></Button>
+
+                                </RelativeLayout>
+
+                            </androidx.cardview.widget.CardView>
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                app:cardCornerRadius="40dp"
+                                android:foreground="?android:attr/selectableItemBackground">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/card_grad_4">
+
+                                    <ImageView
+                                        android:id="@+id/dash6"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_alignParentTop="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_marginTop="25dp"
+                                        android:src="@drawable/emergency" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/dash6"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:text="SOS"
+                                        android:textColor="#fff"
+                                        android:textSize="20sp">
+
+
+                                    </TextView>
+
+                                    <Button
+                                        android:id="@+id/dashsos"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@android:color/transparent"></Button>
+
+                                </RelativeLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+
+
+
+                        </LinearLayout>
+
+                        <!--<LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="135dp"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="5dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                app:cardCornerRadius="40dp"
+                                android:foreground="?android:attr/selectableItemBackground"
+
+
+                                >
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/card_grad_2">
+
+                                    <ImageView
+                                        android:id="@+id/ola_dash_bottom"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_alignParentTop="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_marginTop="25dp"
+                                        android:src="@drawable/ola_icon" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/ola_dash_bottom"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:text="Ola Cab"
+                                        android:textColor="#fff"
+                                        android:textSize="20sp">
+
+
+                                    </TextView>
+
+                                    <Button
+                                        android:id="@+id/ola_dash_card"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@android:color/transparent"></Button>
+
+                                </RelativeLayout>
+
+                            </androidx.cardview.widget.CardView>
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                app:cardCornerRadius="40dp"
+                                android:foreground="?android:attr/selectableItemBackground">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/card_grad_1">
+
+                                    <ImageView
+                                        android:id="@+id/search"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_alignParentTop="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_marginTop="25dp"
+                                        android:src="@drawable/search" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/search"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:text="Lodge FIR"
+                                        android:textColor="#fff"
+                                        android:textSize="20sp">
+
+
+                                    </TextView>
+
+                                    <Button
+                                        android:id="@+id/dash_fir"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@android:color/transparent"></Button>
+
+                                </RelativeLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+
+
+
+                        </LinearLayout>-->
+
+                        <!--<LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp">
+
+
+
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                app:cardCornerRadius="40dp"
+                                android:foreground="?android:attr/selectableItemBackground">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/card_grad_2">
+
+                                    <ImageView
+                                        android:id="@+id/dash5"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_alignParentTop="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_marginTop="25dp"
+                                        android:src="@drawable/taekwondo" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/dash31"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:text="Self Defence"
+                                        android:textColor="#fff"
+                                        android:textSize="20sp">
+
+
+                                    </TextView>
+
+                                    <Button
+                                        android:id="@+id/dash31"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@android:color/transparent"></Button>
+
+                                </RelativeLayout>
+
+                            </androidx.cardview.widget.CardView>
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                app:cardCornerRadius="40dp"
+                                android:foreground="?android:attr/selectableItemBackground"
+
+                                >
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/card_grad_1">
+
+                                    <ImageView
+                                        android:id="@+id/dash1"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_alignParentTop="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_marginTop="25dp"
+                                        android:src="@drawable/map" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/dash1"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginBottom="10dp"
+                                        android:text="Map"
+                                        android:textColor="#ffffff"
+                                        android:textSize="20sp"
+                                        android:layout_marginTop="10dp">
+
+
+                                    </TextView>
+
+                                    <Button
+                                        android:id="@+id/dash32"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@android:color/transparent"></Button>
+
+                                </RelativeLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                        </LinearLayout>-->
+
+                       <!-- <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="135dp"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:paddingBottom="2dp">
+
+                            &lt;!&ndash;<androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="5dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                app:cardCornerRadius="40dp"
+                                android:foreground="?android:attr/selectableItemBackground">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/card_grad_2">
+
+                                    <ImageView
+                                        android:id="@+id/dash5"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_alignParentTop="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_marginTop="25dp"
+                                        android:src="@drawable/login" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/dash5"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:text="Login"
+                                        android:textColor="#6a6a6a"
+                                        android:textSize="18sp">
+
+
+                                    </TextView>
+
+                                    <Button
+                                        android:id="@+id/dashlogin"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@android:color/transparent"></Button>
+
+                                </RelativeLayout>
+
+                            </androidx.cardview.widget.CardView>&ndash;&gt;
+                            &lt;!&ndash;<androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                app:cardCornerRadius="40dp"
+                                android:foreground="?android:attr/selectableItemBackground">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/card_grad_4">
+
+                                    <ImageView
+                                        android:id="@+id/dash4"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_alignParentTop="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_marginTop="25dp"
+                                        android:src="@drawable/sms" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/dash4"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:text="SMS"
+                                        android:textColor="#6a6a6a"
+                                        android:textSize="18sp">
+
+
+                                    </TextView>
+
+                                    <Button
+                                        android:id="@+id/dashsms"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@android:color/transparent"></Button>
+
+                                </RelativeLayout>
+
+                            </androidx.cardview.widget.CardView>&ndash;&gt;
+
+
+
+                        </LinearLayout>-->
+
+
+                    </LinearLayout>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

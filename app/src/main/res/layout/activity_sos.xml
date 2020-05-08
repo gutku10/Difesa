@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Front.SosActivity"
+    android:background="@drawable/homebackground">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Call For Help"
+    android:textSize="50sp"
+    android:id="@+id/sosname"
+    android:layout_marginLeft="60dp"
+    android:layout_marginTop="120dp"
+
+    />
+    <ImageView
+        android:id="@+id/image_call"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_phone" />
+
+    <Button
+        android:id="@+id/siren"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/sos_button"/>
+    <!--<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="190dp"
+
+        android:id="@+id/olas">-->
+
+
+
+
+
+</RelativeLayout>

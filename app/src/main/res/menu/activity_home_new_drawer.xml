@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" />
+    <item
+        android:id="@+id/emergencyMenu"
+        android:icon="@drawable/emergency"
+        android:title="Emergencies new me" />
+    <item
+        android:id="@+id/register"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="Profile" />
+    <item
+        android:id="@+id/maps"
+        android:icon="@drawable/ic_map"
+        android:title="Location" />
+    <item
+        android:id="@+id/det"
+        android:icon="@drawable/ic_curriculum"
+        android:title="Self-Defence" />
+
+
+    <!--<item
+        android:id="@+id/calan"
+        android:icon="@drawable/ic_map"
+        android:title="Scheduler"
+        />-->
+
+    <item
+        android:id="@+id/sosmenu"
+        android:icon="@drawable/ic_curriculum"
+        android:title="SOS" />
+
+    <item
+        android:id="@+id/shake"
+        android:icon="@drawable/ic_login_2"
+        android:title="Shake" />
+
+    <!--<item
+        android:id="@+id/message"
+        android:icon="@drawable/ic_map"
+        android:title="Send Location"
+        />-->
+
+    <item
+        android:id="@+id/news"
+        android:icon="@drawable/ic_curriculum"
+        android:title="News" />
+
+    <!--<item
+        android:id="@+id/schedule"
+        android:icon="@drawable/ic_monday"
+        android:title="ContactToHelpers"
+        />
+-->
+    <!--
+    <item
+        android:id="@+id/hard"
+        android:icon="@drawable/ic_login_2"
+        android:title="Hardware"
+        />
+
+        -->
+
+
+</menu>

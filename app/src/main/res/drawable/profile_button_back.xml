@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <ripple  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:color="@color/quantum_grey">
+        <item android:color="#42ffff" >
+    <shape android:shape="rectangle"
+        >
+    <corners
+        android:topLeftRadius="45dp"
+        android:topRightRadius="45dp"
+        android:bottomRightRadius="45dp"
+        android:bottomLeftRadius="45dp"/>
+    <size android:height="60dp"
+        android:width="@dimen/places_autocomplete_powered_by_google_start"/>
+    <gradient android:angle="90"
+        android:startColor="#feafad"
+
+        android:endColor="#f7d8da"/>
+    </shape>
+        </item>
+    </ripple>

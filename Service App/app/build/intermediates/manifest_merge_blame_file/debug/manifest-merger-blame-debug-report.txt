@@ -1,0 +1,293 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--   ~ Copyright (c) 2019. This code has been developed by Fabio Ciravegna, The University of Sheffield. All rights reserved. No part of this code can be used without the explicit written permission by the author -->
+3<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+4    package="uk.ac.shef.oak.jobserviceexample"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="25"
+9-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="28" />
+10-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:10:5-81
+12-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:10:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:11:5-79
+13-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:11:22-76
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:12:5-65
+14-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:12:22-62
+15    <uses-permission android:name="android.permission.RECEIVE_LAUNCH_BROADCASTS" />
+15-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:13:5-83
+15-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:13:22-81
+16    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+16-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:14:5-80
+16-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:14:22-78
+17    <uses-permission android:name="android.permission.CALL_PHONE" />
+17-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:15:5-68
+17-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:15:22-66
+18    <uses-permission android:name="android.permission.SEND_SMS" />
+18-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:16:5-66
+18-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:16:22-64
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:17:5-66
+19-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:17:22-64
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:18:5-79
+20-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:18:22-76
+21
+22    <!-- required by Android 9 -->
+23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+23-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:21:5-76
+23-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:21:22-74
+24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+24-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:22:1-75
+24-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:22:18-73
+25    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+25-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:23:5-80
+25-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:23:22-78
+26    <uses-permission android:name="android.permission.VIBRATE" />
+26-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:25:5-66
+26-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:25:22-63
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\fc0561515f5d045df16c663fd9ea6869\jetified-firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:24:5-68
+27-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\fc0561515f5d045df16c663fd9ea6869\jetified-firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:24:22-65
+28    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+28-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\e8dc8d40d417153ae5bd4f1bec68cbe3\jetified-firebase-analytics-16.0.1\AndroidManifest.xml:26:5-110
+28-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\e8dc8d40d417153ae5bd4f1bec68cbe3\jetified-firebase-analytics-16.0.1\AndroidManifest.xml:26:22-107
+29    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+29-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\9c38e74f94d0bd3599f430ebeb0f27df\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:5-82
+29-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\9c38e74f94d0bd3599f430ebeb0f27df\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:22-79
+30
+31    <application
+31-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:27:5-70:19
+32        android:allowBackup="true"
+32-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:28:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:29:9-43
+36        android:label="@string/app_name"
+36-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:30:9-41
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:31:9-54
+38        android:supportsRtl="true"
+38-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:32:9-35
+39        android:theme="@style/AppTheme" >
+39-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:33:9-40
+40        <activity android:name="uk.ac.shef.oak.jobserviceexample.MainActivity" >
+40-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:36:9-41:20
+40-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:36:19-47
+41            <intent-filter>
+41-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:37:13-40:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:38:17-69
+42-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:38:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:39:17-77
+44-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:39:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <service
+48-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:43:9-44:72
+49            android:name="uk.ac.shef.oak.jobserviceexample.restarter.JobService"
+49-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:43:18-54
+50            android:permission="android.permission.BIND_JOB_SERVICE" />
+50-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:44:13-69
+51        <service
+51-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:46:9-52:15
+52            android:name="uk.ac.shef.oak.jobserviceexample.Service"
+52-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:47:13-36
+53            android:clearTaskOnLaunch="true"
+53-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:48:13-45
+54            android:enabled="true"
+54-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:49:13-35
+55            android:excludeFromRecents="true"
+55-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:50:13-46
+56            android:launchMode="singleInstance" />
+56-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:51:13-48
+57
+58        <receiver
+58-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:55:9-67:20
+59            android:name="uk.ac.shef.oak.jobserviceexample.restarter.RestartServiceBroadcastReceiver"
+59-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:56:13-70
+60            android:enabled="true"
+60-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:57:13-35
+61            android:exported="true"
+61-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:58:13-36
+62            android:label="StartMyServiceAtBootReceiver" >
+62-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:59:13-57
+63            <intent-filter>
+63-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:60:13-66:29
+64                <action android:name="android.intent.action.BOOT_COMPLETED" />
+64-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:61:17-78
+64-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:61:25-76
+65                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+65-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:62:17-81
+65-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:62:25-79
+66                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+66-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:63:17-83
+66-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:63:25-81
+67                <action android:name="uk.ac.shef.oak.activity_recognition.sensor_service.RestartSensor" />
+67-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:64:17-106
+67-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:64:25-104
+68
+69                <category android:name="android.intent.category.DEFAULT" />
+69-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:65:17-75
+69-->B:\Makeathon\JobServiceExample_makeathon\neverEndingProcessAndroid7-\app\src\main\AndroidManifest.xml:65:27-73
+70            </intent-filter>
+71        </receiver>
+72
+73        <!--
+74             FirebaseMessagingService performs security checks at runtime,
+75             no need for explicit permissions despite exported="true"
+76        -->
+77        <service
+77-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\dadc94f26013e279b0860d6a80399931\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:28:9-34:19
+78            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+78-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\dadc94f26013e279b0860d6a80399931\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:29:13-82
+79            android:exported="true" >
+79-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\dadc94f26013e279b0860d6a80399931\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:30:13-36
+80            <intent-filter android:priority="-500" >
+80-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\dadc94f26013e279b0860d6a80399931\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:31:13-33:29
+80-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\dadc94f26013e279b0860d6a80399931\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:31:28-51
+81                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+81-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\dadc94f26013e279b0860d6a80399931\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:32:17-78
+81-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\dadc94f26013e279b0860d6a80399931\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:32:25-75
+82            </intent-filter>
+83        </service>
+84        <service
+84-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\fc0561515f5d045df16c663fd9ea6869\jetified-firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:27:9-31:19
+85            android:name="com.google.firebase.components.ComponentDiscoveryService"
+85-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\fc0561515f5d045df16c663fd9ea6869\jetified-firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:27:18-89
+86            android:exported="false" >
+86-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\9c38e74f94d0bd3599f430ebeb0f27df\jetified-firebase-iid-17.0.3\AndroidManifest.xml:31:13-37
+87            <meta-data
+87-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\fc0561515f5d045df16c663fd9ea6869\jetified-firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:28:13-30:85
+88                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+88-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\fc0561515f5d045df16c663fd9ea6869\jetified-firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:29:17-139
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\fc0561515f5d045df16c663fd9ea6869\jetified-firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:30:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\9c38e74f94d0bd3599f430ebeb0f27df\jetified-firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
+91                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+91-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\9c38e74f94d0bd3599f430ebeb0f27df\jetified-firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\9c38e74f94d0bd3599f430ebeb0f27df\jetified-firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
+93        </service>
+94
+95        <receiver
+95-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\e8dc8d40d417153ae5bd4f1bec68cbe3\jetified-firebase-analytics-16.0.1\AndroidManifest.xml:29:9-33:20
+96            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+96-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\e8dc8d40d417153ae5bd4f1bec68cbe3\jetified-firebase-analytics-16.0.1\AndroidManifest.xml:30:13-85
+97            android:enabled="true"
+97-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\e8dc8d40d417153ae5bd4f1bec68cbe3\jetified-firebase-analytics-16.0.1\AndroidManifest.xml:31:13-35
+98            android:exported="false" >
+98-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\e8dc8d40d417153ae5bd4f1bec68cbe3\jetified-firebase-analytics-16.0.1\AndroidManifest.xml:32:13-37
+99        </receiver>
+100        <receiver
+100-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\e8dc8d40d417153ae5bd4f1bec68cbe3\jetified-firebase-analytics-16.0.1\AndroidManifest.xml:34:9-42:20
+101            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+101-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\e8dc8d40d417153ae5bd4f1bec68cbe3\jetified-firebase-analytics-16.0.1\AndroidManifest.xml:35:13-100
+102            android:enabled="true"
+102-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\e8dc8d40d417153ae5bd4f1bec68cbe3\jetified-firebase-analytics-16.0.1\AndroidManifest.xml:36:13-35
+103            android:exported="true"
+103-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\e8dc8d40d417153ae5bd4f1bec68cbe3\jetified-firebase-analytics-16.0.1\AndroidManifest.xml:37:13-36
+104            android:permission="android.permission.INSTALL_PACKAGES" >
+104-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\e8dc8d40d417153ae5bd4f1bec68cbe3\jetified-firebase-analytics-16.0.1\AndroidManifest.xml:38:13-69
+105            <intent-filter>
+105-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\e8dc8d40d417153ae5bd4f1bec68cbe3\jetified-firebase-analytics-16.0.1\AndroidManifest.xml:39:13-41:29
+106                <action android:name="com.android.vending.INSTALL_REFERRER" />
+106-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\e8dc8d40d417153ae5bd4f1bec68cbe3\jetified-firebase-analytics-16.0.1\AndroidManifest.xml:40:17-79
+106-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\e8dc8d40d417153ae5bd4f1bec68cbe3\jetified-firebase-analytics-16.0.1\AndroidManifest.xml:40:25-76
+107            </intent-filter>
+108        </receiver>
+109
+110        <service
+110-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\e8dc8d40d417153ae5bd4f1bec68cbe3\jetified-firebase-analytics-16.0.1\AndroidManifest.xml:44:9-47:40
+111            android:name="com.google.android.gms.measurement.AppMeasurementService"
+111-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\e8dc8d40d417153ae5bd4f1bec68cbe3\jetified-firebase-analytics-16.0.1\AndroidManifest.xml:45:13-84
+112            android:enabled="true"
+112-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\e8dc8d40d417153ae5bd4f1bec68cbe3\jetified-firebase-analytics-16.0.1\AndroidManifest.xml:46:13-35
+113            android:exported="false" />
+113-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\e8dc8d40d417153ae5bd4f1bec68cbe3\jetified-firebase-analytics-16.0.1\AndroidManifest.xml:47:13-37
+114        <service
+114-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\e8dc8d40d417153ae5bd4f1bec68cbe3\jetified-firebase-analytics-16.0.1\AndroidManifest.xml:48:9-52:72
+115            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+115-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\e8dc8d40d417153ae5bd4f1bec68cbe3\jetified-firebase-analytics-16.0.1\AndroidManifest.xml:49:13-87
+116            android:enabled="true"
+116-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\e8dc8d40d417153ae5bd4f1bec68cbe3\jetified-firebase-analytics-16.0.1\AndroidManifest.xml:50:13-35
+117            android:exported="false"
+117-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\e8dc8d40d417153ae5bd4f1bec68cbe3\jetified-firebase-analytics-16.0.1\AndroidManifest.xml:51:13-37
+118            android:permission="android.permission.BIND_JOB_SERVICE" />
+118-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\e8dc8d40d417153ae5bd4f1bec68cbe3\jetified-firebase-analytics-16.0.1\AndroidManifest.xml:52:13-69
+119
+120        <receiver
+120-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\9c38e74f94d0bd3599f430ebeb0f27df\jetified-firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
+121            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+121-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\9c38e74f94d0bd3599f430ebeb0f27df\jetified-firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
+122            android:exported="true"
+122-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\9c38e74f94d0bd3599f430ebeb0f27df\jetified-firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
+123            android:permission="com.google.android.c2dm.permission.SEND" >
+123-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\9c38e74f94d0bd3599f430ebeb0f27df\jetified-firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
+124            <intent-filter>
+124-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\9c38e74f94d0bd3599f430ebeb0f27df\jetified-firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
+125                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+125-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\9c38e74f94d0bd3599f430ebeb0f27df\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:17-81
+125-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\9c38e74f94d0bd3599f430ebeb0f27df\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:25-78
+126            </intent-filter>
+127        </receiver>
+128        <!--
+129             FirebaseInstanceIdService performs security checks at runtime,
+130             no need for explicit permissions despite exported="true"
+131        -->
+132        <service
+132-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\9c38e74f94d0bd3599f430ebeb0f27df\jetified-firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
+133            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+133-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\9c38e74f94d0bd3599f430ebeb0f27df\jetified-firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
+134            android:exported="true" >
+134-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\9c38e74f94d0bd3599f430ebeb0f27df\jetified-firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
+135            <intent-filter android:priority="-500" >
+135-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\9c38e74f94d0bd3599f430ebeb0f27df\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
+135-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\9c38e74f94d0bd3599f430ebeb0f27df\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
+136                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+136-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\9c38e74f94d0bd3599f430ebeb0f27df\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
+136-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\9c38e74f94d0bd3599f430ebeb0f27df\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
+137            </intent-filter>
+138        </service>
+139
+140        <provider
+140-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\14888b1f995e380e2fa8ce5e0089a15d\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+141            android:name="com.google.firebase.provider.FirebaseInitProvider"
+141-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\14888b1f995e380e2fa8ce5e0089a15d\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+142            android:authorities="uk.ac.shef.oak.jobserviceexample.firebaseinitprovider"
+142-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\14888b1f995e380e2fa8ce5e0089a15d\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+143            android:exported="false"
+143-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\14888b1f995e380e2fa8ce5e0089a15d\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+144            android:initOrder="100" />
+144-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\14888b1f995e380e2fa8ce5e0089a15d\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+145
+146        <activity
+146-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\291563c6708268cf4683b088770f2b39\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+147            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+147-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\291563c6708268cf4683b088770f2b39\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+148            android:exported="false"
+148-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\291563c6708268cf4683b088770f2b39\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+149            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+149-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\291563c6708268cf4683b088770f2b39\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+150
+151        <meta-data
+151-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\59246a038fc5b077c523ad2015b0dd67\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+152            android:name="com.google.android.gms.version"
+152-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\59246a038fc5b077c523ad2015b0dd67\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+153            android:value="@integer/google_play_services_version" />
+153-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Abhinav\.gradle\caches\transforms-2\files-2.1\59246a038fc5b077c523ad2015b0dd67\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+154    </application>
+155
+156</manifest>

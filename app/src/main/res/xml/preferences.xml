@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="@string/always_ask"
+        android:dialogTitle="@string/choose_link"
+        android:entries="@array/settings_options"
+        android:entryValues="@array/link_options"
+        android:key="prefLinkType"
+        android:title="@string/link_type" />
+</PreferenceScreen>

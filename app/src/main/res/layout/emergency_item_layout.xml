@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/emergencyConstText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Emergency"
+
+        android:textColor="@color/quantum_black_100"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/emergency_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emergencyConstText"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginTop="10dp"
+
+        android:text="Name"
+        android:textColor="@color/quantum_grey700"
+        android:textSize="@dimen/emergency_near_size" />
+
+    <TextView
+        android:id="@+id/emergency_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emergencyConstText"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/emergency_name"
+
+        android:text="Age"
+        android:textColor="@color/quantum_grey700"
+        android:textSize="@dimen/emergency_near_size" />
+
+
+    <TextView
+        android:id="@+id/nearConstText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emergencyConstText"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/emergency_age"
+
+        android:text="Near"
+        android:textColor="@color/quantum_grey700"
+        android:textSize="@dimen/emergency_near_size" />
+
+    <TextView
+        android:id="@+id/emergencyNear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/nearConstText"
+        android:layout_marginLeft="2dp"
+
+        android:layout_toRightOf="@id/nearConstText"
+
+        android:text="Plymouth"
+        android:textColor="@color/quantum_grey700"
+        android:textSize="@dimen/emergency_near_size" />
+
+
+    <TextView
+        android:id="@+id/emergencyApprxTimeByDriving"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/nearConstText"
+        android:layout_marginLeft="20dp"
+
+        android:layout_toRightOf="@id/emergencyNear"
+
+        android:text="25 min by Driving"
+        android:textColor="@color/quantum_grey700"
+        android:textSize="@dimen/emergency_near_size" />
+
+
+    <TextView
+        android:id="@+id/emergencySelectionMap"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="3dp"
+        android:drawableTop="@drawable/ic_map"
+        android:text="View on map"
+        android:textSize="@dimen/emergency_near_size" />
+
+
+</RelativeLayout>

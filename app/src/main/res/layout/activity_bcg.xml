@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_below="@+id/toolbar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Medical.bcgActivity">
+
+    <ImageView
+        android:id="@+id/inf1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pic1" />
+
+    <TextView
+        android:id="@+id/tittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="15sp"
+        android:text="Hammer strike"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/destext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:padding="15sp"
+
+        android:text="In this martial arts technique, martial arts students will swing their clenched fist downwards to the target (i.e. an attacker’s nose).
+
+This strike can be safer for a student’s hand because they are hitting a target with the “padded” bottom of a clenched fist. Thus there is a lower chance that a student will break their hand or knuckles with this strike.
+
+All stretches and exercises should be supervised by a trained martial arts instructor in order to prevent injuries and to ensure the proper technique is utilized. "
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Trainer:+91-8218521212"
+        android:textSize="25sp"
+        android:layout_marginLeft="18dp"
+        />
+
+
+    <FrameLayout
+        android:id="@+id/youtube_Player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        />
+
+
+
+
+</LinearLayout>
+
+
+</ScrollView>
+
+
