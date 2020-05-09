@@ -36,5 +36,5 @@ Difesa can :
 * [Tanishq Bhalla](https://github.com/)  
 * [Utkrisht Agrawal](https://github.com/gutku10)  
 * [Abhinav Goyal](https://github.com/zabhitak)  
-* [Guneet Singh Kohli](https://github.com/gutku10)  
-* [Kunal Pradyuman](https://github.com/zabhitak)  
+* [Guneet Singh Kohli](https://github.com/guneetsk99)  
+* [Kunal Pradyuman](https://github.com/lostaquila)  
