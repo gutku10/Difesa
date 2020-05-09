@@ -1,5 +1,5 @@
 # Welcome to Difesa  - Women Safety App 
-## Team Bot_bug
+## Team xMETADORz
  
 
 # Instructions to run locally:
@@ -26,9 +26,15 @@ Difesa can :
 
 ## How to use & Demo Link?
 
-### https://docs.google.com/document/d/1Mw38h-4DmF-1-CbzKQJoEhS9cpPloTn6vybsgP7HpxE/edit#
+### https://drive.google.com/file/d/1FaVdLLCbUi_U0rOiaRZvP7KJgudqqjYL/view?usp=sharing
+
+## Video Presentation!
+
+### https://drive.google.com/file/d/1Pw4kqrUASmxf2HKSkL7gv3TsYIEwB1Ex/view?usp=sharing
 
 ## Contributors
 * [Tanishq Bhalla](https://github.com/)  
 * [Utkrisht Agrawal](https://github.com/gutku10)  
 * [Abhinav Goyal](https://github.com/zabhitak)  
+* [Guneet Singh Kohli](https://github.com/gutku10)  
+* [Kunal Pradyuman](https://github.com/zabhitak)  
