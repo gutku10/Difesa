@@ -29,7 +29,7 @@ Difesa can :
 
 <table>
   <tr>
-    <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Home.jpg" height="380px;"alt=""/></td>
+    <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Home.jpg" height="410px;"alt=""/></td>
     <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Dashboard.jpg" alt=""/><br /></td>
     <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Nearest Police Station.jpg" alt=""/><br /></td>
     
