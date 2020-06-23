@@ -29,15 +29,15 @@ Difesa can :
 
 <table>
   <tr>
-    <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Home.jpg" height="450px;"alt=""/><br /><sub><b></b></sub><br /></td>
-    <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Dashboard.jpg" alt=""/><br /><sub><b></b></sub><br /></td>
-    <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Nearest Police Station.jpg" alt=""/><br /><sub><b></b></sub><br /></td>
+    <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Home.jpg" height="400px;"alt=""/></td>
+    <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Dashboard.jpg" alt=""/><br /></td>
+    <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Nearest Police Station.jpg" alt=""/><br /></td>
     
   </tr>
   <tr>
-        <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Device.jpg" alt=""/><br /><sub><b></b></sub><br /></td>
-        <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/On shake Sharing.jpg" alt=""/><br /><sub><b></b></sub><br /></td>
-        <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Suraksha.PNG" alt=""/><br /><sub><b></b></sub><br /></td>
+        <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Device.jpg" alt=""/><br /></td>
+        <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/On shake Sharing.jpg" alt=""/><br /></td>
+        <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Suraksha.PNG" alt=""/><br /></td>
   </tr>
 </table>
 
