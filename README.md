@@ -28,6 +28,9 @@ Difesa can :
 <p>
 ![](./Screenshots/Suraksha.PNG)
 </p>
+<p align='center'>
+<img src='https://github.com/gutku10/Difesa/blob/master/Screenshots/Dashboard.jpg' width='600' alt='npm start'>
+</p>
 
 ## How to use & Demo Link?
 
