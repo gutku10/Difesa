@@ -35,9 +35,9 @@ Difesa can :
     
   </tr>
  
-  <tr>
+  <!-- <tr>
    <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Device1.JPG" alt=""/></td>
-  </tr>
+  </tr> -->
   <tr>
         <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Nearest Police Station.jpg" alt=""/><br /></td>
         <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/On shake Sharing.jpg" height="380px;" alt=""/><br /></td>
