@@ -4,16 +4,11 @@
  
 
 ## Quick Overview
-<!-- 1. [Download the apk of the app](https://github.com/gutku10/Difesa/tree/master/app)
+1. [Download the apk of the app](https://github.com/gutku10/Difesa/tree/master/app)
 2. Goto to android studio and open the code file. 
 3. Build the code in the studio 
-4. Install the app in your Android Phone. -->
-```sh
-[Download the apk of the app](https://github.com/gutku10/Difesa/tree/master/app)
-Goto to android studio and open the code file
-Build the code in the studio
-Install the app in your Android Phone. 
-```
+4. Install the app in your Android Phone.
+
 
 # Features
 
@@ -32,11 +27,11 @@ Difesa can :
 
 ## How to use & Demo Link?
 ```sh
-## https://drive.google.com/file/d/1iew9H-7sRK2E8xXSgWOq8waBtguzdZCt/view?usp=sharing
+ https://drive.google.com/file/d/1iew9H-7sRK2E8xXSgWOq8waBtguzdZCt/view?usp=sharing
 ```
 ## Video Presentation!
 ```sh
-## https://drive.google.com/file/d/1Pw4kqrUASmxf2HKSkL7gv3TsYIEwB1Ex/view?usp=sharing
+ https://drive.google.com/file/d/1Pw4kqrUASmxf2HKSkL7gv3TsYIEwB1Ex/view?usp=sharing
 ```
 
 ## Contributors
