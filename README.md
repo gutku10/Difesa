@@ -35,8 +35,8 @@ Difesa can :
     
   </tr>
   <tr>
-        <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Device.jpg" alt=""/><br /></td>
-        <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/On shake Sharing.jpg" alt=""/><br /></td>
+        <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Device.jpg"height="380px;" width="300px;" alt=""/><br /></td>
+        <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/On shake Sharing.jpg" height="380px;" alt=""/><br /></td>
         <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Suraksha.PNG" alt=""/><br /></td>
   </tr>
 </table>
