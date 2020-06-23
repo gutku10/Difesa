@@ -29,9 +29,9 @@ Difesa can :
 
 <table>
   <tr>
-    <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Home.jpeg" height="430px;"alt=""/></td>
-    <td align="right"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Dashboard.jpg" alt=""/><br /></td>
-    <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/inst.jpeg" height="430px;"alt=""/></td>
+    <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Home.jpeg"  height="450px;"width="400px;"alt=""/></td>
+    <td align="right"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Dashboard.jpg" height="440px;" width="400px;"alt=""/><br /></td>
+    <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/inst.jpeg" height="450px;" width="400px;"alt=""/></td>
    
     
   </tr>
