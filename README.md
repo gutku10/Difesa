@@ -26,11 +26,12 @@ Difesa can :
 
 ## Images of DIFESA?
 
-<p align='left'>
+<a align='left'>
 <img src='https://github.com/gutku10/Difesa/blob/master/Screenshots/Home.jpg' alt='npm start'>
+</a>
+<a align='right' >
 <img src='https://github.com/gutku10/Difesa/blob/master/Screenshots/Dashboard.jpg' alt='npm start'>
-</p>
-
+</a>
 ## How to use & Demo Link?
 
 ### https://drive.google.com/file/d/1iew9H-7sRK2E8xXSgWOq8waBtguzdZCt/view?usp=sharing
