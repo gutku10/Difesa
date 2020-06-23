@@ -30,7 +30,7 @@ Difesa can :
 <table>
   <tr>
     <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Home.jpg" height="430px;"alt=""/></td>
-    <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Dashboard.jpg" alt=""/><br /></td>
+    <td align="right"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Dashboard.jpg" alt=""/><br /></td>
    
     
   </tr>
