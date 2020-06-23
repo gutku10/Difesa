@@ -25,11 +25,9 @@ Difesa can :
 >* Supports the hardware
 
 ## Images of DIFESA?
-<p>
-![](./Screenshots/Suraksha.PNG)
-</p>
-<p align='center'>
-<img src='https://github.com/gutku10/Difesa/blob/master/Screenshots/Dashboard.jpg' width='600' alt='npm start'>
+
+<p align='left'>
+<img src='https://github.com/gutku10/Difesa/blob/master/Screenshots/Dashboard.jpg' alt='npm start'>
 </p>
 
 ## How to use & Demo Link?
