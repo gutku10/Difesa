@@ -32,6 +32,20 @@ Difesa can :
 <a align='right' >
 <img src='https://github.com/gutku10/Difesa/blob/master/Screenshots/Dashboard.jpg' alt='npm start'>
 </a>
+
+<table>
+  <tr>
+    <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Home.jpg" alt=""/><br /><sub><b>Home</b></sub><br /></td>
+    <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Dashboard.jpg" alt=""/><br /><sub><b>DashBoard</b></sub><br /></td>
+     <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Nearest Police Station.jpg" alt=""/><br /><sub><b>Location</b></sub><br /></td>
+    
+  </tr>
+  <tr>
+        <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Device.jpg" alt=""/><br /><sub><b>Gadget</b></sub><br /></td>
+  </tr>
+</table>
+
+
 ## How to use & Demo Link?
 
 ### https://drive.google.com/file/d/1iew9H-7sRK2E8xXSgWOq8waBtguzdZCt/view?usp=sharing
