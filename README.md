@@ -42,7 +42,7 @@ Difesa can :
   </table>
   <table>
   <tr>
-        <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Nearest Police Station.jpg" height="400px;" alt=""/><br /></td>
+        <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Nearest Police Station.jpg" height="380px;" alt=""/><br /></td>
         <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/On shake Sharing.jpg" height="380px;" alt=""/><br /></td>
         <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Suraksha.PNG" alt=""/><br /></td>
   </tr>
