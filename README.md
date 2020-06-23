@@ -26,7 +26,7 @@ Difesa can :
 
 ## Images of DIFESA?
 <p>
-![](./Screenshots/Device.jpg)
+![](./Screenshots/Suraksha.PNG)
 </p>
 
 ## How to use & Demo Link?
