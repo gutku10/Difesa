@@ -26,12 +26,6 @@ Difesa can :
 
 ## Images of DIFESA?
 
-<a align='left'>
-<img src='https://github.com/gutku10/Difesa/blob/master/Screenshots/Home.jpg' alt='npm start'>
-</a>
-<a align='right' >
-<img src='https://github.com/gutku10/Difesa/blob/master/Screenshots/Dashboard.jpg' alt='npm start'>
-</a>
 
 <table>
   <tr>
@@ -42,6 +36,8 @@ Difesa can :
   </tr>
   <tr>
         <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Device.jpg" alt=""/><br /><sub><b>Gadget</b></sub><br /></td>
+         <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/On shake Sharing.jpg" alt=""/><br /><sub><b>Whatsapp TRIGGER</b></sub><br /></td>
+          <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Suraksha.PNG" alt=""/><br /><sub><b>Voice Command</b></sub><br /></td>
   </tr>
 </table>
 
