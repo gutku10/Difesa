@@ -24,7 +24,7 @@ Difesa can :
 >* On shaking mobile app will capture the photo of the person in front of her and send it on WhatsApp with live location along with a call
 >* Supports the hardware
 
-## Images of DIFESA?
+## Images of DIFESA
 
 
 <table>
