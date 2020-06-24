@@ -44,8 +44,10 @@ Difesa can :
     
   </tr>
   </table>
-
-   <img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Device1.JPG" align="center" alt=""/>
+  <p align="center">
+ <img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Device1.JPG" align="center" alt=""/>
+</p>
+   
   <table>
   <tr>
         <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Nearest Police Station.jpg" height="440px;"width="400px;" alt=""/><br /></td>
