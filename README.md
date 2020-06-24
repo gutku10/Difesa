@@ -70,7 +70,7 @@ Difesa can :
 
 
 ## Contributors
-* [Tanishq Bhalla](https://github.com/)  
+* [Tanishq Bhalla](https://github.com/Tanishq457)  
 * [Utkrisht Agrawal](https://github.com/gutku10)  
 * [Abhinav Goyal](https://github.com/zabhitak)  
 * [Guneet Singh Kohli](https://github.com/guneetsk99)  
