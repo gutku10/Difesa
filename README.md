@@ -1,7 +1,7 @@
 # Difesa  - Women Safety App 
 
 <p align="center">
- <img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/favicon.png" alt=""/>
+ <img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/favicon.png" height="550px;"width="500px;"alt=""/>
 </p>
 
 <p align="center">
