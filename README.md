@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-<h1>Team xMETADORz</h1>
+<h1 align="center">xMETADORz</h1>
 </p>
 
 
