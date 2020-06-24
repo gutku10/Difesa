@@ -1,7 +1,10 @@
 # Welcome to Difesa  - Women Safety App 
-## Team xMETADORz
- 
 
+
+## Team xMETADORz
+<p align="center">
+ <img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/favicon.png" alt=""/>
+</p>
 # Instructions to run locally:
 1. [Download the apk of the app](https://github.com/gutku10/Difesa/tree/master/app)
 2. Goto to android studio and open the code file. 
