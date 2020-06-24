@@ -37,9 +37,9 @@ Difesa can :
 
 <table>
   <tr>
-    <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Home.jpeg"  height="450px;"width="400px;"alt=""/></td>
-    <td align="right"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Dashboard.jpg" height="450px;" width="400px;"alt=""/><br /></td>
-    <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/inst.jpeg" height="450px;" width="400px;"alt=""/></td>
+    <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Home.jpeg"  height="460px;"width="400px;"alt=""/></td>
+    <td align="right"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Dashboard.jpg" height="460px;" width="400px;"alt=""/><br /></td>
+    <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/inst.jpeg" height="460px;" width="400px;"alt=""/></td>
    
     
   </tr>
@@ -50,9 +50,9 @@ Difesa can :
    
   <table>
   <tr>
-        <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Nearest Police Station.jpg" height="440px;"width="400px;" alt=""/><br /></td>
-        <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/On shake Sharing.jpg"height="440px;" width="400px;" alt=""/><br /></td>
-        <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Suraksha.PNG" height="450px;" width="400px;"alt=""/><br /></td>
+        <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Nearest Police Station.jpg" height="460px;"width="400px;" alt=""/><br /></td>
+        <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/On shake Sharing.jpg"height="460px;" width="400px;" alt=""/><br /></td>
+        <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Suraksha.PNG" height="460px;" width="400px;"alt=""/><br /></td>
   </tr>
 </table>
 
