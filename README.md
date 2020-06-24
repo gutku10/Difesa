@@ -4,7 +4,9 @@
  <img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/favicon.png" alt=""/>
 </p>
 
-## Team xMETADORz
+<p align="center">
+Team xMETADORz
+</p>
 
 
 
