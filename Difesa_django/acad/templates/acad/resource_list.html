@@ -1,0 +1,38 @@
+{%extends "blog/base.html"%}
+{%block content%}
+
+
+<h2>resources</h2>
+
+<p>
+    <a href="{%url 'upload_resource'%}" class = "btn btn-primary btn-fill">Upload Resource</a>
+</p>
+<table class = "table">
+    <head>
+        <tr>
+             <th> Cover</th>
+            <th> Title</th>
+            <th> Author</th>
+            <th> Download</th>
+        </tr>
+    </head>
+    <tbody>
+        {% for resource in resources%}
+        <tr>
+            <td>
+                {% if resource.cover %}
+                    <img src="{{resource.cover.url}}" alt="{{resources.title}}" style="width:100px;">
+                {%else%}
+                    <span class ="text-muted">No Cover</span>
+
+                {%endif%}
+            </td>
+            <td>{{resource.title}}</td> 
+            <td> {{resource.author}}</td> 
+            <td>
+            <a href="{{resource.pdf.url}}" class ="btn btn-primary btn-fill" TARGET ="_blank">Download Resouces</a></td> 
+        </tr>
+        {%endfor%}
+    </tbody>
+</table>
+{%endblock content%}

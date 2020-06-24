@@ -1,0 +1,39 @@
+{% extends "blog/bad.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+<div class = "content-section">
+
+<form method='POST'>
+    {% csrf_token %}
+    <fieldset class ='form-group'>
+        <legend class="border-bottom mb-4">Log In</legend>
+                {{ form|crispy }}
+                <div class ='form-group'>
+                          <button class="btn btn-warning btn-fill" type="submit">Log In
+                          </button>
+                          {% comment %} <a class="btn btn-primary btn-fill" href="{% url 'social:begin' 'google-oauth2' %}">Login With Google</a> {% endcomment %}
+                           
+    <ul>
+     
+     
+      <li><a href="{% url "social:begin" "google-oauth2" %}">Login with Google</a></li>
+    </ul>
+                          <div>
+                          <small class ="text-muted ml-3">
+                              <a href="{%url 'password_reset'%}">Forget Password</a>
+                          </small>
+                          </div>
+                </div>
+    </fieldset>  
+</form>
+
+<div class = "border-top pt-3">
+    <small class="text-muted">Need an Account <a class ="ml-2" href="{%url 'register'%}">Sign Up Now
+    </a></small>
+</div>
+</div>
+
+{% endblock content %}
+
+

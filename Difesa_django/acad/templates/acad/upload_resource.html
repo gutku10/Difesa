@@ -1,0 +1,11 @@
+{%extends "blog/base.html"%}
+{%load crispy_forms_tags%}
+{%block content%}
+
+<h3>Vexio</h3>
+<form method='POST' enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form|crispy}}
+    <button type ="submit" class ="btn btn-primary">Upload Resource</button>
+</form>
+{%endblock content%}
