@@ -75,3 +75,5 @@ Difesa can :
 * [Abhinav Goyal](https://github.com/zabhitak)  
 * [Guneet Singh Kohli](https://github.com/guneetsk99)  
 * [Kunal Pradyuman](https://github.com/lostaquila)  
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M31VMKD)
