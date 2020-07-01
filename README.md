@@ -76,4 +76,6 @@ Difesa can :
 * [Guneet Singh Kohli](https://github.com/guneetsk99)  
 * [Kunal Pradyuman](https://github.com/lostaquila)  
 
+<script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy me a Coffee!', '#b82d18', 'M4M31VMKD');kofiwidget2.draw();</script> 
+
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M31VMKD)
