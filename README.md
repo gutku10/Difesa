@@ -37,9 +37,9 @@ Difesa can :
 
 <table>
   <tr>
-    <td align="center"><img src="https://drive.google.com/file/d/1ZbJgsUiImJyWQAivvWlYY47kqoteITeo/view?usp=sharing"  height="460px;"width="400px;"alt=""/></td>
-    <td align="right"><img src="https://drive.google.com/file/d/12vJVEBycOYjospPNU0mrh7YI6IT5zFVP/view?usp=sharing" height="460px;" width="400px;"alt=""/><br /></td>
-    <td align="center"><img src="https://drive.google.com/file/d/1Gfbjfw6FEJVc-2OhN4ZbpBmc4YX5baTu/view?usp=sharing" height="460px;" width="400px;"alt=""/></td>
+    <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Home.jpeg"  height="460px;"width="400px;"alt=""/></td>
+    <td align="right"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/Dashboard.jpg" height="460px;" width="400px;"alt=""/><br /></td>
+    <td align="center"><img src="https://github.com/gutku10/Difesa/blob/master/Screenshots/inst.jpeg" height="460px;" width="400px;"alt=""/></td>
    
     
   </tr>
